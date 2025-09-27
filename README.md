@@ -21,102 +21,12 @@ Rendered SVG (guaranteed to display):
 
 ![Architecture](docs/svg/architecture_flow.svg)
 
-```mermaid
-flowchart TB
-    subgraph Client
-      FE[Frontend App<br/>http://localhost:3000]
-      CURL[CLI / cURL / Postman]
-    end
-
-    subgraph Backend
-      CORS[[CORS Middleware<br/>localhost:3000 allowed]]
-      API[REST Endpoints]
-
-      subgraph MatchingPipeline
-        MPT[run_match_pipeline()]
-        PR[Profile Reader<br/>profile_reader_rule()]
-        MS[Match Scorer<br/>match_score()]
-        RF[Red Flag Detector<br/>red_flag_detector()]
-        WX[Wingman Explainability<br/>wingman_explain()]
-        RH[Room Hunter for Pair<br/>room_hunter_for_pair()]
-        PLAN[(agent_plan trace)]
-      end
-
-      subgraph RoomSearch
-        RSLabel[Rooms Search]
-        RT[Raw text parser<br/>profile_reader_rule()]
-        NF[Normalize filters<br/>cities/budget<br/>amenities_any/all<br/>amenity_weights]
-        FZ[Fuzzy amenity mapping<br/>amenity_to_canonical()]
-        FL[Filter listings<br/>city/budget/amenities]
-        SS[Score listings<br/>rent+amenity score]
-      end
-    end
-
-    subgraph Data
-      DLabel[Local Datasets]
-      PROFILES[Profiles JSON]
-      LISTINGS[Listings JSON]
-    end
-
-    FE -->|HTTP| CORS --> API
-    CURL --> API
-
-    API -->|GET /profiles/:id/matches\nPOST /match| MatchingPipeline
-    API -->|GET /profiles/:id/rooms| RH
-    API -->|POST /rooms/search| RoomSearch
-    API -->|GET /profiles, /profiles/:id, /parse, /stats, /health| Backend
-
-    PR --> PROFILES
-    MS --> PROFILES
-    RF --> PROFILES
-    RH --> LISTINGS
-
-    RT --> PROFILES
-    FL --> LISTINGS
-    SS --> LISTINGS
-
-    PR --> MS --> RF --> WX --> RH --> PLAN
-```
 
 Sequence: Top roommate matches request
 
 Rendered SVG (guaranteed to display):
 
 ![Matching sequence](docs/svg/matching_sequence.svg)
-
-```mermaid
-sequenceDiagram
-  participant FE as Frontend / Client
-  participant API as FastAPI app.py
-  participant PIPE as run_match_pipeline()
-  participant PR as profile_reader_rule()
-  participant MS as match_score()
-  participant RF as red_flag_detector()
-  participant WX as wingman_explain()
-  participant RH as room_hunter_for_pair()
-  participant PDATA as Profiles JSON
-  participant LDATA as Listings JSON
-
-  FE->>API: GET /profiles/{id}/matches?top_k=5[&degraded=...]
-  loop For each candidate
-    API->>PIPE: run_match_pipeline(id, candidate_id, degraded)
-    PIPE->>PDATA: fetch profiles A/B
-    PIPE->>PR: parse raw_text if not normalized
-    PR-->>PIPE: parsed attributes (city, budget, etc.)
-    PIPE->>MS: compute score components
-    MS-->>PIPE: score + components
-    PIPE->>RF: detect conflicts (noise/smoking/pets/budget/scam)
-    RF-->>PIPE: flags[]
-    PIPE->>WX: build explanation summary/reasons/suggestions
-    WX-->>PIPE: explanation
-    PIPE->>RH: optional room suggestions for the pair
-    RH->>LDATA: filter listings by city & budget
-    LDATA-->>RH: candidates
-    RH-->>PIPE: rooms[]
-    PIPE-->>API: Candidate result (includes score, flags, explanation, agent_plan)
-  end
-  API-->>FE: [sorted top_k results]
-```
 
 ## Quick Start
 Requirements:
