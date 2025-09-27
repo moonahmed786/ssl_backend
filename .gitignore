@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Env files
+.env
+.env.*
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Node (if used later)
+node_modules/
+
+# Generated decks
+*.pptx
+~$*.pptx
+# Keep the default canonical deck path tracked if desired by un-commenting next line
+#!docs/pitch/RoomMatcherAI_PitchDeck.pptx
+# Ignore other generated deck outputs in docs/pitch
+/docs/pitch/*.pptx
+
+# Mermaid renders (commit if you want stable images; otherwise ignore)
+# /docs/svg/*.svg

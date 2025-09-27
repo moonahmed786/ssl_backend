@@ -1,4 +1,4 @@
-.PHONY: help venv install run dev docker-build docker-run clean diagrams
+.PHONY: help venv install run dev docker-build docker-run clean diagrams diagrams-local pitch
 
 help:
 	@echo "Available targets:"
@@ -8,29 +8,20 @@ help:
 	@echo "  docker-build   Build the Docker image (tag: room-matcher-backend)"
 	@echo "  docker-run     Run the Docker image mapping port 8000"
 	@echo "  diagrams       Render Mermaid diagrams in docs/ to SVG (requires Docker)"
+	@echo "  diagrams-local Render Mermaid diagrams using local mmdc (no Docker)"
+	@echo "  pitch          Generate pitch deck (installs deps, runs script with ARGS passthrough)"
 	@echo "  clean          Remove __pycache__ and build artifacts"
-
-venv:
-	python3 -m venv venv
-
-install:
-	venv/bin/pip install -r requirements.txt
-
-run:
-	venv/bin/uvicorn app:app --reload --host 127.0.0.1 --port 8000
-
-# Docker
-
-docker-build:
-	docker build -t room-matcher-backend .
-
-docker-run:
-	docker run --rm -p 8000:8000 room-matcher-backend
-
-clean:
-	rm -rf __pycache__ */__pycache__ build dist *.egg-info
 
 diagrams:
 	mkdir -p docs/svg
 	docker run --rm -v "$(PWD)/docs:/data" minlag/mermaid-cli:10.9.0 -i /data/architecture_flow.mmd -o /data/svg/architecture_flow.svg
 	docker run --rm -v "$(PWD)/docs:/data" minlag/mermaid-cli:10.9.0 -i /data/matching_sequence.mmd -o /data/svg/matching_sequence.svg
+
+# Render diagrams locally without Docker (requires: npm i -g @mermaid-js/mermaid-cli)
+diagrams-local:
+	mkdir -p docs/svg
+	mmdc -i docs/architecture_flow.mmd -o docs/svg/architecture_flow.svg
+	mmdc -i docs/matching_sequence.mmd -o docs/svg/matching_sequence.svg
+
+pitch: install
+	venv/bin/python scripts/generate_pitch_deck.py $(ARGS)

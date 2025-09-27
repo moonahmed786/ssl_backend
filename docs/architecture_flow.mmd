@@ -36,10 +36,10 @@ flowchart TB
     FE -->|HTTP| API
     CURL --> API
 
-    API -->|GET /profiles/:id/matches / POST /match| MatchingPipeline
+    API -->|GET /profiles/:id/matches / POST /match| MPT
     API -->|GET /profiles/:id/rooms| RH
-    API -->|POST /rooms/search| RoomSearch
-    API -->|GET /profiles /parse /stats /health| Backend
+    API -->|POST /rooms/search| RSLabel
+    %% API -->|GET /profiles /parse /stats /health| Backend
 
     PR --> PROFILES
     MS --> PROFILES
