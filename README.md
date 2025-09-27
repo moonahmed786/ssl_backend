@@ -26,7 +26,7 @@ flowchart TB
 
     subgraph Backend
       CORS[[CORS Middleware<br/>localhost:3000 allowed]]
-      API[/REST Endpoints/]
+      API[REST Endpoints]
 
       subgraph MatchingPipeline
         MPT[run_match_pipeline()]
@@ -39,7 +39,7 @@ flowchart TB
       end
 
       subgraph RoomSearch
-        RSLabel[/rooms/search/]
+        RSLabel[Rooms Search]
         RT[Raw text parser<br/>profile_reader_rule()]
         NF[Normalize filters<br/>cities/budget<br/>amenities_any/all<br/>amenity_weights]
         FZ[Fuzzy amenity mapping<br/>amenity_to_canonical()]
@@ -49,18 +49,18 @@ flowchart TB
     end
 
     subgraph Data
-      DLabel[Local Datasets (JSON files)]
-      PROFILES[(synthetic_roommate_profiles_pakistan_400.json)]
-      LISTINGS[(housing_listings_pakistan_400.json)]
+      DLabel[Local Datasets]
+      PROFILES[Profiles JSON]
+      LISTINGS[Listings JSON]
     end
 
     FE -->|HTTP| CORS --> API
     CURL --> API
 
-    API -->|GET /profiles/{id}/matches\nPOST /match| MatchingPipeline
-    API -->|GET /profiles/{id}/rooms| RH
+    API -->|GET /profiles/:id/matches\nPOST /match| MatchingPipeline
+    API -->|GET /profiles/:id/rooms| RH
     API -->|POST /rooms/search| RoomSearch
-    API -->|GET /profiles, /profiles/{id}, /parse, /stats, /health| Backend
+    API -->|GET /profiles, /profiles/:id, /parse, /stats, /health| Backend
 
     PR --> PROFILES
     MS --> PROFILES
