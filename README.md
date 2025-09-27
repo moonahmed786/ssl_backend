@@ -28,7 +28,8 @@ flowchart TB
       CORS[[CORS Middleware<br/>localhost:3000 allowed]]
       API[/REST Endpoints/]
 
-      subgraph MatchingPipeline[run_match_pipeline()]
+      subgraph MatchingPipeline
+        MPT[run_match_pipeline()]
         PR[Profile Reader<br/>profile_reader_rule()]
         MS[Match Scorer<br/>match_score()]
         RF[Red Flag Detector<br/>red_flag_detector()]
@@ -37,7 +38,8 @@ flowchart TB
         PLAN[(agent_plan trace)]
       end
 
-      subgraph RoomSearch[/rooms/search/]
+      subgraph RoomSearch
+        RSLabel[/rooms/search/]
         RT[Raw text parser<br/>profile_reader_rule()]
         NF[Normalize filters<br/>cities/budget<br/>amenities_any/all<br/>amenity_weights]
         FZ[Fuzzy amenity mapping<br/>amenity_to_canonical()]
@@ -46,7 +48,8 @@ flowchart TB
       end
     end
 
-    subgraph Data[Local Datasets (JSON files)]
+    subgraph Data
+      DLabel[Local Datasets (JSON files)]
       PROFILES[(synthetic_roommate_profiles_pakistan_400.json)]
       LISTINGS[(housing_listings_pakistan_400.json)]
     end
@@ -102,7 +105,7 @@ sequenceDiagram
     RH->>LDATA: filter listings by city & budget
     LDATA-->>RH: candidates
     RH-->>PIPE: rooms[]
-    PIPE-->>API: {candidate_id, score, flags, explanation:{wingman, rooms}, agent_plan}
+    PIPE-->>API: Candidate result (includes score, flags, explanation, agent_plan)
   end
   API-->>FE: [sorted top_k results]
 ```
