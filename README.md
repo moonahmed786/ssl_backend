@@ -20,29 +20,29 @@ Primary files:
 ```mermaid
 flowchart TB
     subgraph Client
-      FE[Frontend App\nhttp://localhost:3000]
+      FE[Frontend App<br/>http://localhost:3000]
       CURL[CLI / cURL / Postman]
     end
 
-    subgraph Backend[FastAPI Backend (uvicorn) — app.py]
-      CORS[[CORS Middleware\nlocalhost:3000 allowed]]
+    subgraph Backend
+      CORS[[CORS Middleware<br/>localhost:3000 allowed]]
       API[/REST Endpoints/]
 
       subgraph MatchingPipeline[run_match_pipeline()]
-        PR[Profile Reader\nprofile_reader_rule()]
-        MS[Match Scorer\nmatch_score()]
-        RF[Red Flag Detector\nred_flag_detector()]
-        WX[Wingman Explainability\nwingman_explain()]
-        RH[Room Hunter for Pair\nroom_hunter_for_pair()]
+        PR[Profile Reader<br/>profile_reader_rule()]
+        MS[Match Scorer<br/>match_score()]
+        RF[Red Flag Detector<br/>red_flag_detector()]
+        WX[Wingman Explainability<br/>wingman_explain()]
+        RH[Room Hunter for Pair<br/>room_hunter_for_pair()]
         PLAN[(agent_plan trace)]
       end
 
       subgraph RoomSearch[/rooms/search/]
-        RT[Raw text parser\nprofile_reader_rule()]
-        NF[Normalize filters\ncities/budget\namenities_any/all\namenity_weights]
-        FZ[Fuzzy amenity mapping\namenity_to_canonical()]
-        FL[Filter listings\ncity/budget/amenities]
-        SS[Score listings\nrent+amenity score]
+        RT[Raw text parser<br/>profile_reader_rule()]
+        NF[Normalize filters<br/>cities/budget<br/>amenities_any/all<br/>amenity_weights]
+        FZ[Fuzzy amenity mapping<br/>amenity_to_canonical()]
+        FL[Filter listings<br/>city/budget/amenities]
+        SS[Score listings<br/>rent+amenity score]
       end
     end
 
@@ -99,7 +99,7 @@ sequenceDiagram
     PIPE->>WX: build explanation summary/reasons/suggestions
     WX-->>PIPE: explanation
     PIPE->>RH: optional room suggestions for the pair
-    RH->>LDATA: filter listings by city ∩ budget
+    RH->>LDATA: filter listings by city & budget
     LDATA-->>RH: candidates
     RH-->>PIPE: rooms[]
     PIPE-->>API: {candidate_id, score, flags, explanation:{wingman, rooms}, agent_plan}
