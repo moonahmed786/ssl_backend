@@ -13,6 +13,11 @@ from difflib import SequenceMatcher
 PROFILES_FILE = "synthetic_roommate_profiles_pakistan_400.json"
 LISTINGS_FILE = "housing_listings_pakistan_400.json"
 
+# === Degraded mode tuning knobs ===
+DEGRADED_MAX_CANDIDATES = 120          # cap candidate pool size
+DEGRADED_MIN_BUDGET_IOU = 0.10         # quick screen on budget overlap
+DEGRADED_ROOM_COUNT = 0                # skip room hunter in degraded path
+
 # === LOAD DATA ON STARTUP ===
 with open(PROFILES_FILE, "r", encoding="utf-8") as f:
     profiles = json.load(f)
@@ -427,25 +432,64 @@ def run_match_pipeline(profile_id: str, candidate_id: str, degraded: bool = Fals
     merged_b = {**b, **b_parsed}
     agent_plan.append({"agent":"ProfileReader", "action":"parsed", "time_ms": now_ms()-start})
 
-    # Match Scorer
-    start = now_ms()
-    score, components = match_score(merged_a, merged_b)
-    agent_plan.append({"agent":"MatchScorer", "action":"scored", "score": score, "components": components, "time_ms": now_ms()-start})
+    if degraded:
+        # Simplified, token-efficient path
+        # Score focuses on budget overlap and cleanliness similarity
+        start = now_ms()
+        a_low, a_high = budget_interval(merged_a.get("budget_PKR"))
+        b_low, b_high = budget_interval(merged_b.get("budget_PKR"))
+        s_budget = budget_iou(a_low, a_high, b_low, b_high)
+        s_clean = 1 - abs(int(merged_a.get("cleanliness",3)) - int(merged_b.get("cleanliness",3))) / 4.0
+        score = round(0.7 * s_budget + 0.3 * s_clean, 4)
+        components = {"budget": s_budget, "clean": s_clean}
+        agent_plan.append({"agent":"MatchScorer", "action":"degraded_scored", "score": score, "components": components, "time_ms": now_ms()-start})
 
-    # Red Flag Agent
-    start = now_ms()
-    flags = red_flag_detector(merged_a, merged_b)
-    agent_plan.append({"agent":"RedFlagAgent", "action":"detected", "flags": flags, "time_ms": now_ms()-start})
+        # Minimal flags (budget mismatch only if zero overlap)
+        start = now_ms()
+        flags = []
+        if s_budget <= 0.0:
+            flags.append("budget_mismatch")
+        agent_plan.append({"agent":"RedFlagAgent", "action":"degraded_detected", "flags": flags, "time_ms": now_ms()-start})
 
-    # Wingman explanation
-    start = now_ms()
-    explanation = wingman_explain(merged_a, merged_b, score, components, flags)
-    agent_plan.append({"agent":"WingmanAgent", "action":"explained", "summary": explanation.get("short"), "time_ms": now_ms()-start})
+        # Brief explanation
+        start = now_ms()
+        explanation = {
+            "short": "Degraded mode: quick match",
+            "reasons": [
+                f"Budget overlap: {s_budget:.2f}",
+                f"Cleanliness alignment: {s_clean:.2f}"
+            ],
+            "suggestions": []
+        }
+        agent_plan.append({"agent":"WingmanAgent", "action":"degraded_explained", "summary": explanation.get("short"), "time_ms": now_ms()-start})
 
-    # Room Hunter (optional) - only if score is positive and cities known
-    start = now_ms()
-    rooms = room_hunter_for_pair(merged_a, merged_b, top_n=5)
-    agent_plan.append({"agent":"RoomHunter", "action":"searched", "found": len(rooms), "time_ms": now_ms()-start})
+        # Optional room hunter (often skipped in degraded mode)
+        start = now_ms()
+        rooms = []
+        if DEGRADED_ROOM_COUNT and int(DEGRADED_ROOM_COUNT) > 0:
+            rooms = room_hunter_for_pair(merged_a, merged_b, top_n=int(DEGRADED_ROOM_COUNT))
+        agent_plan.append({"agent":"RoomHunter", "action":"degraded_searched", "found": len(rooms), "time_ms": now_ms()-start})
+    else:
+        # Full pipeline path
+        # Match Scorer
+        start = now_ms()
+        score, components = match_score(merged_a, merged_b)
+        agent_plan.append({"agent":"MatchScorer", "action":"scored", "score": score, "components": components, "time_ms": now_ms()-start})
+
+        # Red Flag Agent
+        start = now_ms()
+        flags = red_flag_detector(merged_a, merged_b)
+        agent_plan.append({"agent":"RedFlagAgent", "action":"detected", "flags": flags, "time_ms": now_ms()-start})
+
+        # Wingman explanation
+        start = now_ms()
+        explanation = wingman_explain(merged_a, merged_b, score, components, flags)
+        agent_plan.append({"agent":"WingmanAgent", "action":"explained", "summary": explanation.get("short"), "time_ms": now_ms()-start})
+
+        # Room Hunter (optional) - only if score is positive and cities known
+        start = now_ms()
+        rooms = room_hunter_for_pair(merged_a, merged_b, top_n=5)
+        agent_plan.append({"agent":"RoomHunter", "action":"searched", "found": len(rooms), "time_ms": now_ms()-start})
 
     total_time = now_ms() - start_total
     agent_plan.append({"agent":"Controller", "action":"total", "time_ms": total_time})
@@ -509,12 +553,34 @@ def profile_matches(profile_id: str, top_k: int = 5, degraded: bool = False):
         raise HTTPException(status_code=404, detail="Profile not found")
     # compute pairwise scores against dataset
     results = []
-    for p in profiles:
+    # If degraded: prefilter candidates for speed
+    candidate_pool = profiles
+    if degraded:
+        A = profiles_by_id[profile_id]
+        A_parsed = profile_reader_rule(A.get("raw_text", "")) if "normalized" not in A else A
+        a_city = (A_parsed.get("city") or "").lower()
+        a_low, a_high = budget_interval(A_parsed.get("budget_PKR"))
+        filtered = []
+        for p in profiles:
+            if p["id"] == profile_id:
+                continue
+            if a_city and (p.get("city") or "").lower() != a_city:
+                continue
+            b_low, b_high = budget_interval(p.get("budget_PKR"))
+            iou = budget_iou(a_low, a_high, b_low, b_high)
+            if iou < DEGRADED_MIN_BUDGET_IOU:
+                continue
+            filtered.append(p)
+            if len(filtered) >= int(DEGRADED_MAX_CANDIDATES):
+                break
+        candidate_pool = filtered if filtered else [p for p in profiles if p["id"] != profile_id]
+
+    for p in candidate_pool:
         if p["id"] == profile_id:
             continue
         try:
             res = run_match_pipeline(profile_id, p["id"], degraded=degraded)
-        except Exception as e:
+        except Exception:
             continue
         results.append(res)
     # sort by score - penalize certain flags heavily

@@ -4,6 +4,7 @@ This FastAPI backend powers a minimal multi-agent roommate matcher and room list
 
 - Compute compatibility matches between profiles
 - Explain matches and flag potential conflicts
+
 - Suggest rooms for a given profile
 - Search room listings via free-text (auto-parsed) or structured filters
 - Return dataset statistics
@@ -14,8 +15,99 @@ Primary files:
 - `synthetic_roommate_profiles_pakistan_400.json` — profiles dataset
 - `housing_listings_pakistan_400.json` — room listings dataset
 
-## Quick Start
+## Architecture
 
+```mermaid
+flowchart TB
+    subgraph Client
+      FE[Frontend App\nhttp://localhost:3000]
+      CURL[CLI / cURL / Postman]
+    end
+
+    subgraph Backend[FastAPI Backend (uvicorn) — app.py]
+      CORS[[CORS Middleware\nlocalhost:3000 allowed]]
+      API[/REST Endpoints/]
+
+      subgraph MatchingPipeline[run_match_pipeline()]
+        PR[Profile Reader\nprofile_reader_rule()]
+        MS[Match Scorer\nmatch_score()]
+        RF[Red Flag Detector\nred_flag_detector()]
+        WX[Wingman Explainability\nwingman_explain()]
+        RH[Room Hunter for Pair\nroom_hunter_for_pair()]
+        PLAN[(agent_plan trace)]
+      end
+
+      subgraph RoomSearch[/rooms/search/]
+        RT[Raw text parser\nprofile_reader_rule()]
+        NF[Normalize filters\ncities/budget\namenities_any/all\namenity_weights]
+        FZ[Fuzzy amenity mapping\namenity_to_canonical()]
+        FL[Filter listings\ncity/budget/amenities]
+        SS[Score listings\nrent+amenity score]
+      end
+    end
+
+    subgraph Data[Local Datasets (JSON files)]
+      PROFILES[(synthetic_roommate_profiles_pakistan_400.json)]
+      LISTINGS[(housing_listings_pakistan_400.json)]
+    end
+
+    FE -->|HTTP| CORS --> API
+    CURL --> API
+
+    API -->|GET /profiles/{id}/matches\nPOST /match| MatchingPipeline
+    API -->|GET /profiles/{id}/rooms| RH
+    API -->|POST /rooms/search| RoomSearch
+    API -->|GET /profiles, /profiles/{id}, /parse, /stats, /health| Backend
+
+    PR --> PROFILES
+    MS --> PROFILES
+    RF --> PROFILES
+    RH --> LISTINGS
+
+    RT --> PROFILES
+    FL --> LISTINGS
+    SS --> LISTINGS
+
+    PR --> MS --> RF --> WX --> RH --> PLAN
+```
+
+Sequence: Top roommate matches request
+
+```mermaid
+sequenceDiagram
+  participant FE as Frontend / Client
+  participant API as FastAPI app.py
+  participant PIPE as run_match_pipeline()
+  participant PR as profile_reader_rule()
+  participant MS as match_score()
+  participant RF as red_flag_detector()
+  participant WX as wingman_explain()
+  participant RH as room_hunter_for_pair()
+  participant PDATA as Profiles JSON
+  participant LDATA as Listings JSON
+
+  FE->>API: GET /profiles/{id}/matches?top_k=5[&degraded=...]
+  loop For each candidate
+    API->>PIPE: run_match_pipeline(id, candidate_id, degraded)
+    PIPE->>PDATA: fetch profiles A/B
+    PIPE->>PR: parse raw_text if not normalized
+    PR-->>PIPE: parsed attributes (city, budget, etc.)
+    PIPE->>MS: compute score components
+    MS-->>PIPE: score + components
+    PIPE->>RF: detect conflicts (noise/smoking/pets/budget/scam)
+    RF-->>PIPE: flags[]
+    PIPE->>WX: build explanation summary/reasons/suggestions
+    WX-->>PIPE: explanation
+    PIPE->>RH: optional room suggestions for the pair
+    RH->>LDATA: filter listings by city ∩ budget
+    LDATA-->>RH: candidates
+    RH-->>PIPE: rooms[]
+    PIPE-->>API: {candidate_id, score, flags, explanation:{wingman, rooms}, agent_plan}
+  end
+  API-->>FE: [sorted top_k results]
+```
+
+## Quick Start
 Requirements:
 
 - Python 3.11+ (tested with 3.12)
@@ -235,16 +327,48 @@ Endpoints:
     }
     ```
 
-- `GET /stats`
-  - Quick statistics on profiles and listings, including rent min/median/percentiles
-
 ## How Matching Works (High Level)
 
-- `profile_reader_rule()` parses free-text into normalized attributes: city, budget, cleanliness (1-5), sleep schedule, noise tolerance, smoking/pets, food prefs
+- `profile_reader_rule()` parses free-text into normalized attributes: city, budget, cleanliness (1-5), sleep schedule, noise tolerance, smoking/pets, food_pref
 - `match_score()` computes a weighted compatibility score using sleep, cleanliness, noise, budget overlap, and special alignment (smoking/pets)
 - `red_flag_detector()` flags potential conflicts like noise, smoking, pets, budget mismatch, suspicious text
 - `wingman_explain()` builds a summary with reasons and suggestions
 - `room_hunter_for_pair()` searches listings for rooms matching the pair’s intersected budget and city
+
+## Degraded Mode
+
+Degraded mode provides an explicit lightweight path optimized for offline or low-bandwidth usage.
+
+- Behavior (when `degraded=true`):
+  - Prefilters candidate profiles by same city and a minimum budget overlap (IoU) before scoring.
+  - Uses a simplified scorer that emphasizes budget overlap and cleanliness similarity.
+  - Produces a brief explanation and minimal flags (budget mismatch only).
+  - Skips room suggestions by default (configurable).
+
+- Configuration (constants in `app.py`):
+  - `DEGRADED_MAX_CANDIDATES` — cap on candidate pool after prefilter (default 120)
+  - `DEGRADED_MIN_BUDGET_IOU` — minimum budget IoU to keep candidate (default 0.10)
+  - `DEGRADED_ROOM_COUNT` — number of suggested rooms in degraded path (default 0 = skip)
+
+- How to use:
+  - Top matches (GET):
+    ```bash
+    curl -s "http://127.0.0.1:8000/profiles/R-001/matches?top_k=5&degraded=true" | jq
+    ```
+  - Pairwise (POST):
+    ```bash
+    curl -s -X POST http://127.0.0.1:8000/match \
+      -H "Content-Type: application/json" \
+      -d '{
+        "profile_a": "R-001",
+        "profile_b": "R-010",
+        "degraded": true
+      }' | jq
+    ```
+
+- Notes:
+  - Default is full mode (`degraded=false`).
+  - All logic remains fully offline; degraded mode reduces compute and explanation verbosity.
 
 ## Frontend Integration Tips
 
