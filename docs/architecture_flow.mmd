@@ -1,0 +1,53 @@
+flowchart TB
+    subgraph Client
+      FE[Frontend App]
+      CURL[CLI / cURL / Postman]
+    end
+
+    subgraph Backend
+      CORS[CORS Middleware]
+      API[REST Endpoints]
+
+      subgraph MatchingPipeline
+        MPT[run_match_pipeline()]
+        PR[profile_reader_rule()]
+        MS[match_score()]
+        RF[red_flag_detector()]
+        WX[wingman_explain()]
+        RH[room_hunter_for_pair()]
+        PLAN[(agent_plan)]
+      end
+
+      subgraph RoomSearch
+        RSLabel[Rooms Search]
+        RT[Raw text parser]
+        NF[Normalize filters]
+        FZ[Fuzzy amenity mapping]
+        FL[Filter listings]
+        SS[Score listings]
+      end
+    end
+
+    subgraph Data
+      PROFILES[Profiles JSON]
+      LISTINGS[Listings JSON]
+    end
+
+    FE -->|HTTP| API
+    CURL --> API
+
+    API -->|GET /profiles/:id/matches / POST /match| MatchingPipeline
+    API -->|GET /profiles/:id/rooms| RH
+    API -->|POST /rooms/search| RoomSearch
+    API -->|GET /profiles /parse /stats /health| Backend
+
+    PR --> PROFILES
+    MS --> PROFILES
+    RF --> PROFILES
+    RH --> LISTINGS
+
+    RT --> PROFILES
+    FL --> LISTINGS
+    SS --> LISTINGS
+
+    PR --> MS --> RF --> WX --> RH --> PLAN

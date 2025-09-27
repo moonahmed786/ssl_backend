@@ -1,4 +1,4 @@
-.PHONY: help venv install run dev docker-build docker-run clean
+.PHONY: help venv install run dev docker-build docker-run clean diagrams
 
 help:
 	@echo "Available targets:"
@@ -7,6 +7,7 @@ help:
 	@echo "  run            Run the FastAPI app with uvicorn (reload, port 8000)"
 	@echo "  docker-build   Build the Docker image (tag: room-matcher-backend)"
 	@echo "  docker-run     Run the Docker image mapping port 8000"
+	@echo "  diagrams       Render Mermaid diagrams in docs/ to SVG (requires Docker)"
 	@echo "  clean          Remove __pycache__ and build artifacts"
 
 venv:
@@ -28,3 +29,8 @@ docker-run:
 
 clean:
 	rm -rf __pycache__ */__pycache__ build dist *.egg-info
+
+diagrams:
+	mkdir -p docs/svg
+	docker run --rm -v "$(PWD)/docs:/data" minlag/mermaid-cli:10.9.0 -i /data/architecture_flow.mmd -o /data/svg/architecture_flow.svg
+	docker run --rm -v "$(PWD)/docs:/data" minlag/mermaid-cli:10.9.0 -i /data/matching_sequence.mmd -o /data/svg/matching_sequence.svg

@@ -17,6 +17,10 @@ Primary files:
 
 ## Architecture
 
+Rendered SVG (guaranteed to display):
+
+![Architecture](docs/svg/architecture_flow.svg)
+
 ```mermaid
 flowchart TB
     subgraph Client
@@ -75,6 +79,10 @@ flowchart TB
 ```
 
 Sequence: Top roommate matches request
+
+Rendered SVG (guaranteed to display):
+
+![Matching sequence](docs/svg/matching_sequence.svg)
 
 ```mermaid
 sequenceDiagram

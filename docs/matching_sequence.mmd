@@ -1,0 +1,31 @@
+sequenceDiagram
+  participant FE as Frontend / Client
+  participant API as FastAPI app.py
+  participant PIPE as run_match_pipeline()
+  participant PR as profile_reader_rule()
+  participant MS as match_score()
+  participant RF as red_flag_detector()
+  participant WX as wingman_explain()
+  participant RH as room_hunter_for_pair()
+  participant PDATA as Profiles JSON
+  participant LDATA as Listings JSON
+
+  FE->>API: GET /profiles/:id/matches?top_k=5
+  loop For each candidate
+    API->>PIPE: run_match_pipeline(id, candidate_id)
+    PIPE->>PDATA: fetch profiles A/B
+    PIPE->>PR: parse raw_text if needed
+    PR-->>PIPE: parsed attributes
+    PIPE->>MS: compute score components
+    MS-->>PIPE: score + components
+    PIPE->>RF: detect conflicts
+    RF-->>PIPE: flags
+    PIPE->>WX: build explanation
+    WX-->>PIPE: explanation
+    PIPE->>RH: optional room suggestions
+    RH->>LDATA: filter listings by city & budget
+    LDATA-->>RH: candidates
+    RH-->>PIPE: rooms
+    PIPE-->>API: candidate result (score, flags, explanation, agent_plan)
+  end
+  API-->>FE: sorted top_k results
