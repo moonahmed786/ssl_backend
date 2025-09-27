@@ -25,7 +25,7 @@ Create and activate a virtual environment, then install dependencies:
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # on Windows: venv\Scripts\activate
-pip install fastapi uvicorn
+pip install -r requirements.txt
 ```
 
 Run the API server:
@@ -38,6 +38,44 @@ Health check:
 
 ```bash
 curl -s http://127.0.0.1:8000/health | jq
+```
+
+You can also open interactive docs:
+
+```text
+Swagger UI: http://127.0.0.1:8000/docs
+ReDoc:      http://127.0.0.1:8000/redoc
+```
+
+## Makefile (Optional)
+
+A `Makefile` provides shortcuts for common tasks:
+
+- `make venv` — create a Python virtual environment
+- `make install` — install dependencies from `requirements.txt` into the venv
+- `make run` — run the app using uvicorn with reload on port 8000
+- `make docker-build` — build a Docker image tagged `room-matcher-backend`
+- `make docker-run` — run the image, mapping port 8000
+- `make clean` — remove caches and build artifacts
+
+Example:
+
+```bash
+make venv
+make install
+make run
+```
+
+## Docker (Optional)
+
+Build and run with Docker:
+
+```bash
+make docker-build
+make docker-run
+# or directly
+docker build -t room-matcher-backend .
+docker run --rm -p 8000:8000 room-matcher-backend
 ```
 
 ## CORS
