@@ -7,6 +7,7 @@ import math
 import re
 from collections import Counter
 from fastapi.middleware.cors import CORSMiddleware
+from difflib import SequenceMatcher
 
 # === CONFIG - filenames in same folder ===
 PROFILES_FILE = "synthetic_roommate_profiles_pakistan_400.json"
@@ -42,9 +43,14 @@ class MatchResult(BaseModel):
 class RoomSearchRequest(BaseModel):
     raw_text: Optional[str] = None
     city: Optional[str] = None
+    cities: Optional[List[str]] = None
     budget_PKR: Optional[int] = None
     budget_min: Optional[int] = None
     budget_max: Optional[int] = None
+    amenities_any: Optional[List[str]] = None
+    amenities_all: Optional[List[str]] = None
+    amenity_weights: Optional[Dict[str, float]] = None
+    min_score: Optional[float] = None
     top_n: int = 5
 
 # === UTILITIES & NORMALIZERS ===
@@ -71,6 +77,51 @@ CLEAN_MAP = {
     "medium": 3,
     "low": 1
 }
+
+# Amenity synonyms for fuzzy/canonical matching
+# Keys are canonical names (lowercase); values are lists of synonyms/variants
+AMENITY_SYNONYMS: Dict[str, List[str]] = {
+    "wifi": ["wifi", "wi-fi", "wi fi", "internet"],
+    "ac": ["ac", "aircon", "air con", "air-con", "air conditioner", "air conditioning", "a/c"],
+    "parking": ["parking", "car parking", "garage"],
+    "laundry": ["laundry", "washing machine", "washer", "laundary"],
+    "furnished": ["furnished", "furniture"],
+    "heater": ["heater", "heating", "gas heater"],
+    "balcony": ["balcony", "terrace"],
+    "security": ["security", "guard", "cctv", "surveillance"],
+    "elevator": ["elevator", "lift"],
+    "kitchen": ["kitchen", "cooking", "cook"],
+    "gym": ["gym", "fitness", "workout"],
+}
+
+def amenity_to_canonical(name: str) -> Optional[str]:
+    s = (name or "").strip().lower()
+    if not s:
+        return None
+    # exact/synonym map
+    for canon, syns in AMENITY_SYNONYMS.items():
+        if s == canon or s in syns:
+            return canon
+    # fuzzy: map to best matching canonical if above threshold
+    best = None
+    best_r = 0.0
+    for canon, syns in AMENITY_SYNONYMS.items():
+        for cand in [canon] + syns:
+            r = SequenceMatcher(None, s, cand).ratio()
+            if r > best_r:
+                best_r = r
+                best = canon
+    return best if best_r >= 0.82 else s  # fall back to raw token
+
+def canonicalize_amenities(arr: List[str]) -> List[str]:
+    out: List[str] = []
+    seen = set()
+    for a in arr or []:
+        can = amenity_to_canonical(a)
+        if can and can not in seen:
+            seen.add(can)
+            out.append(can)
+    return out
 
 # --- Rule-based Profile Reader Agent ---
 def profile_reader_rule(raw_text: str) -> Dict[str, Any]:
@@ -515,6 +566,23 @@ def search_rooms(req: RoomSearchRequest):
             return ""
         return c.lower()
 
+    def _norm_cities(arr: Optional[List[str]]) -> List[str]:
+        out = []
+        if not arr:
+            return out
+        for c in arr:
+            nc = _norm_city(c)
+            if nc:
+                out.append(nc)
+        # de-duplicate preserving order
+        seen = set()
+        uniq = []
+        for c in out:
+            if c not in seen:
+                seen.add(c)
+                uniq.append(c)
+        return uniq
+
     def _norm_budget(v: Optional[int]) -> Optional[int]:
         try:
             iv = int(v) if v is not None else None
@@ -523,16 +591,40 @@ def search_rooms(req: RoomSearchRequest):
             return None
 
     city = _norm_city(req.city)
+    cities_list = _norm_cities(req.cities)
     bmin = _norm_budget(req.budget_min)
     bmax = _norm_budget(req.budget_max)
     bpk = _norm_budget(req.budget_PKR)
+    # normalize amenity preferences (canonicalized)
+    amenities_any = canonicalize_amenities([a for a in (req.amenities_any or []) if isinstance(a, str)])
+    amenities_all = canonicalize_amenities([a for a in (req.amenities_all or []) if isinstance(a, str)])
+    # normalize amenity weights (canonicalize keys)
+    amenity_weights: Dict[str, float] = {}
+    if req.amenity_weights:
+        for k, v in req.amenity_weights.items():
+            can = amenity_to_canonical(k)
+            try:
+                w = float(v)
+            except Exception:
+                w = 0.0
+            if can and w > 0:
+                amenity_weights[can] = w
+    # normalize min_score
+    min_score = None
+    if req.min_score is not None:
+        try:
+            ms = float(req.min_score)
+            # clamp to [0,1]
+            min_score = max(0.0, min(1.0, ms))
+        except Exception:
+            min_score = None
     low: Optional[int] = None
     high: Optional[int] = None
 
     # If raw_text is provided, parse and use it as primary source
     if (req.raw_text or "").strip():
         parsed = profile_reader_rule(req.raw_text or "")
-        if not city and parsed.get("city"):
+        if not city and not cities_list and parsed.get("city"):
             city = (parsed.get("city") or "").lower()
         if bpk is None and (bmin is None or bmax is None) and parsed.get("budget_PKR"):
             low, high = budget_interval(parsed.get("budget_PKR"))
@@ -584,20 +676,52 @@ def search_rooms(req: RoomSearchRequest):
         else:
             low, high = 0, 1_000_000_000
 
+    # Determine which city filter to apply
+    cities_filter = cities_list if cities_list else ([city] if city else [])
+
     # Filter and score listings
     candidates = []
     for L in listings:
         if L.get("availability", "").lower() != "available":
             continue
-        if city and (L.get("city") or "").lower() != city:
+        lcity = (L.get("city") or "").lower()
+        if cities_filter and lcity not in cities_filter:
             continue
         rent = L.get("monthly_rent_PKR", 0)
         if rent < low or rent > high:
             continue
+        # amenities filtering (canonicalized + fuzzy)
+        lamens_raw = [a.strip().lower() for a in (L.get("amenities", []) or []) if a and isinstance(a, str)]
+        lamens = canonicalize_amenities(lamens_raw)
+        if amenities_all and not all(a in lamens for a in amenities_all):
+            continue
+        if amenities_any and not any(a in lamens for a in amenities_any):
+            continue
         mid = (low + high) / 2
         rent_score = 1 - abs(rent - mid) / (mid if mid > 0 else 1)
-        amen_score = min(1.0, len(L.get("amenities", [])) / 6.0)
+
+        # Amenity scoring: combine base richness with preference match (optionally weighted)
+        base_richness = min(1.0, len(lamens_raw) / 6.0)
+
+        # preference match
+        requested_set = set(amenities_any) | set(amenities_all)
+        pref_score = base_richness
+        if requested_set:
+            if amenity_weights:
+                denom = sum(max(0.0, float(amenity_weights.get(a, 0.0))) for a in requested_set)
+                if denom > 0:
+                    matched = sum(amenity_weights.get(a, 0.0) for a in requested_set if a in lamens)
+                    pref_score = max(0.0, min(1.0, matched / denom))
+                else:
+                    # fallback if weights sum to 0
+                    pref_score = len([a for a in requested_set if a in lamens]) / max(1, len(requested_set))
+            else:
+                pref_score = len([a for a in requested_set if a in lamens]) / max(1, len(requested_set))
+
+        amen_score = round(0.5 * base_richness + 0.5 * float(pref_score), 4)
         final_score = round(0.6 * rent_score + 0.4 * amen_score, 4)
+        if min_score is not None and final_score < min_score:
+            continue
         candidates.append((final_score, L))
 
     candidates_sorted = sorted(candidates, key=lambda x: x[0], reverse=True)
@@ -615,7 +739,15 @@ def search_rooms(req: RoomSearchRequest):
 
     return {
         "rooms": out,
-        "applied_filters": {"city": city or None, "budget_min": low, "budget_max": high},
+        "applied_filters": {
+            "cities": cities_filter or None,
+            "budget_min": low,
+            "budget_max": high,
+            "amenities_any": amenities_any or None,
+            "amenities_all": amenities_all or None,
+            "amenity_weights": amenity_weights or None,
+            "min_score": min_score,
+        },
     }
 
 @app.post("/match", summary="Detailed pairwise match (two profile ids) -> returns match, flags, explanation, rooms and trace")

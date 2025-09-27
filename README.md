@@ -148,6 +148,8 @@ Endpoints:
   - Search room listings using a free-text query or structured filters
   - The backend prioritizes `raw_text` and ignores placeholder fields like `"string"` or 0
   - If no budget is provided or parsed, it uses per-city rent quartiles (25th–75th percentile), or global quartiles if city is unknown
+  - Supports multiple cities via `cities`, amenity filters via `amenities_any` (OR) and `amenities_all` (AND), and a minimum score cutoff via `min_score` (0–1)
+  - Supports fuzzy amenity matching (e.g., `"AC" ~ "aircon" ~ "air conditioning" ~ `"a/c"`) and amenity weighting via `amenity_weights`
   - Request body examples:
     - Free text only:
       ```json
@@ -172,6 +174,42 @@ Endpoints:
         "top_n": 5
       }
       ```
+    - Multiple cities:
+      ```json
+      {
+        "cities": ["Lahore", "Karachi"],
+        "top_n": 5
+      }
+      ```
+    - Amenity filters (must include all, and include any of the OR list):
+      ```json
+      {
+        "city": "Lahore",
+        "amenities_all": ["Wifi", "AC"],
+        "amenities_any": ["Parking", "Laundry"],
+        "top_n": 5
+      }
+      ```
+    - With min score cutoff and multiple cities:
+      ```json
+      {
+        "cities": ["Islamabad", "Rawalpindi"],
+        "budget_min": 15000,
+        "budget_max": 22000,
+        "amenities_all": ["Wifi", "Furnished"],
+        "min_score": 0.65,
+        "top_n": 5
+      }
+      ```
+    - Weighted amenities (fuzzy matching enabled):
+      ```json
+      {
+        "city": "Karachi",
+        "amenities_any": ["air conditioning", "internet"],
+        "amenity_weights": {"AC": 2.0, "Wifi": 1.0},
+        "top_n": 5
+      }
+      ```
   - Response shape:
     ```json
     {
@@ -185,7 +223,15 @@ Endpoints:
           "score": 0.82
         }
       ],
-      "applied_filters": {"city": "lahore", "budget_min": 15000, "budget_max": 22000}
+      "applied_filters": {
+        "cities": ["lahore", "karachi"],
+        "budget_min": 15000,
+        "budget_max": 22000,
+        "amenities_any": ["parking", "laundry"],
+        "amenities_all": ["wifi", "ac"],
+        "amenity_weights": {"ac": 2.0, "wifi": 1.0},
+        "min_score": 0.65
+      }
     }
     ```
 
