@@ -1,0 +1,6164 @@
+[
+  {
+    "listing_id": "H-0001",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 14932,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "Security guard",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0002",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 16177,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "Furnished",
+      "Mess facility",
+      "Separate washroom",
+      "Attached bathroom",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0003",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 24030,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Security guard",
+      "Electricity backup",
+      "Attached bathroom",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0004",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 16815,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Attached bathroom",
+      "Laundry service",
+      "Security guard",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0005",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 25417,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Water supply",
+      "Attached bathroom",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0006",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 15961,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0007",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 13143,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "AC room",
+      "Electricity backup",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0008",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 18189,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Furnished",
+      "Water supply",
+      "Electricity backup",
+      "Security guard",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0009",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 16602,
+    "rooms_available": 2,
+    "amenities": [
+      "Security guard",
+      "Separate washroom",
+      "Furnished",
+      "WiFi",
+      "Laundry service",
+      "Attached bathroom",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0010",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 28138,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Nearby bus stop",
+      "Parking",
+      "Security guard",
+      "Separate washroom",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0011",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 17014,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Separate washroom",
+      "AC room",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0012",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 11295,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "Nearby bus stop",
+      "Laundry service",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0013",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 11105,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "Separate washroom",
+      "Laundry service",
+      "Mess facility",
+      "Shared kitchen",
+      "Security guard",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0014",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 12440,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Water supply",
+      "AC room",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0015",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 16600,
+    "rooms_available": 1,
+    "amenities": [
+      "Furnished",
+      "Mess facility",
+      "Water supply",
+      "Attached bathroom",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0016",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 12918,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Parking",
+      "Security guard",
+      "Attached bathroom",
+      "Separate washroom",
+      "WiFi",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0017",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 9356,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Water supply",
+      "WiFi",
+      "AC room",
+      "Shared kitchen",
+      "Security guard",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0018",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 26010,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Laundry service",
+      "Mess facility",
+      "Shared kitchen",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0019",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 17696,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Nearby bus stop",
+      "Water supply",
+      "Electricity backup",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0020",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 16707,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Attached bathroom",
+      "Water supply",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0021",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 20032,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "Electricity backup",
+      "AC room",
+      "Mess facility",
+      "Laundry service",
+      "Nearby bus stop",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0022",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 29136,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "Separate washroom",
+      "Electricity backup",
+      "Laundry service",
+      "Nearby bus stop",
+      "WiFi",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0023",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 14082,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Separate washroom",
+      "Furnished",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0024",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 29408,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Mess facility",
+      "Shared kitchen",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0025",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 16084,
+    "rooms_available": 1,
+    "amenities": [
+      "Laundry service",
+      "Nearby bus stop",
+      "Electricity backup",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0026",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 26332,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "WiFi",
+      "Separate washroom",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0027",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 7769,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Security guard",
+      "Parking",
+      "AC room",
+      "Mess facility",
+      "Attached bathroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0028",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 19858,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Laundry service",
+      "Water supply",
+      "Furnished",
+      "Parking",
+      "Electricity backup",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0029",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 27723,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0030",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 7568,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "Parking",
+      "Laundry service",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0031",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 23547,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "WiFi",
+      "Nearby bus stop",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0032",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 8705,
+    "rooms_available": 1,
+    "amenities": [
+      "Attached bathroom",
+      "Electricity backup",
+      "Security guard",
+      "Separate washroom",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0033",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 17548,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Nearby bus stop",
+      "Furnished",
+      "Separate washroom",
+      "Shared kitchen",
+      "AC room",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0034",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 28371,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "Separate washroom",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0035",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 9003,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "Parking",
+      "Nearby bus stop",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0036",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 16040,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Mess facility",
+      "Electricity backup",
+      "Nearby bus stop",
+      "Water supply",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0037",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 22892,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Furnished",
+      "Security guard",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0038",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 7582,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "Nearby bus stop",
+      "Security guard",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0039",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 13952,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "WiFi",
+      "Laundry service",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0040",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 25971,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Electricity backup",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0041",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 25701,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "Furnished",
+      "Electricity backup",
+      "Shared kitchen",
+      "Parking",
+      "Nearby bus stop",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0042",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 23478,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Parking",
+      "AC room",
+      "Mess facility",
+      "Water supply",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0043",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 15013,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "Water supply",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0044",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 21533,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "Security guard",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0045",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 28489,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Attached bathroom",
+      "Shared kitchen",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0046",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 18345,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "Parking",
+      "Nearby bus stop",
+      "Water supply",
+      "WiFi",
+      "AC room",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0047",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 13795,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Laundry service",
+      "Furnished",
+      "AC room",
+      "Shared kitchen",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0048",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 14726,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Laundry service",
+      "Shared kitchen",
+      "AC room",
+      "Furnished",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0049",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 15276,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Nearby bus stop",
+      "Furnished",
+      "Electricity backup",
+      "AC room",
+      "WiFi",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0050",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 17953,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0051",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 11998,
+    "rooms_available": 3,
+    "amenities": [
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Mess facility",
+      "Laundry service",
+      "Water supply",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0052",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 21782,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Security guard",
+      "Water supply",
+      "Attached bathroom",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0053",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 22212,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "WiFi",
+      "Mess facility",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0054",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 7207,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Mess facility",
+      "Attached bathroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0055",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 25243,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "Mess facility",
+      "Attached bathroom",
+      "Water supply",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0056",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 12862,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "Laundry service",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0057",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 16572,
+    "rooms_available": 1,
+    "amenities": [
+      "Attached bathroom",
+      "Parking",
+      "Mess facility",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0058",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 14117,
+    "rooms_available": 3,
+    "amenities": [
+      "WiFi",
+      "Laundry service",
+      "Furnished",
+      "Mess facility",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0059",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 29660,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "AC room",
+      "Security guard",
+      "Nearby bus stop",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0060",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 17092,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "Separate washroom",
+      "AC room",
+      "Security guard",
+      "Electricity backup",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0061",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 17730,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Mess facility",
+      "Electricity backup",
+      "Parking",
+      "Security guard",
+      "Shared kitchen",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0062",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 27789,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Security guard",
+      "Laundry service",
+      "Water supply",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0063",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 15577,
+    "rooms_available": 3,
+    "amenities": [
+      "Nearby bus stop",
+      "Furnished",
+      "Shared kitchen",
+      "Separate washroom",
+      "Attached bathroom",
+      "Laundry service",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0064",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 25932,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Electricity backup",
+      "Laundry service",
+      "Mess facility",
+      "Separate washroom",
+      "AC room",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0065",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 6942,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Laundry service",
+      "Electricity backup",
+      "Shared kitchen",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0066",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 8080,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "AC room",
+      "Laundry service",
+      "Nearby bus stop",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0067",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 21581,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "Shared kitchen",
+      "Electricity backup",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0068",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 21619,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Separate washroom",
+      "Laundry service",
+      "Parking",
+      "Mess facility",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0069",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 10602,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Attached bathroom",
+      "Water supply",
+      "Mess facility",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0070",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 12335,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "Laundry service",
+      "Separate washroom",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0071",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 16349,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Laundry service",
+      "Water supply",
+      "Mess facility",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0072",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 11925,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Laundry service",
+      "AC room",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0073",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 22371,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "Water supply",
+      "Mess facility",
+      "Attached bathroom",
+      "Electricity backup",
+      "Shared kitchen",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0074",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 13916,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Electricity backup",
+      "Parking",
+      "WiFi",
+      "Mess facility",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0075",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 12153,
+    "rooms_available": 3,
+    "amenities": [
+      "Furnished",
+      "WiFi",
+      "Parking",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0076",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 22325,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Security guard",
+      "Shared kitchen",
+      "Parking",
+      "Electricity backup",
+      "Laundry service",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0077",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 29433,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Mess facility",
+      "Parking",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0078",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 23768,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Mess facility",
+      "Electricity backup",
+      "Separate washroom",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0079",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 26745,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Shared kitchen",
+      "Parking",
+      "Water supply",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0080",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 14465,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "AC room",
+      "Furnished",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0081",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 6779,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Furnished",
+      "Parking",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0082",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 21263,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Water supply",
+      "Electricity backup",
+      "Security guard",
+      "WiFi",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0083",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 13592,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Nearby bus stop",
+      "Mess facility",
+      "Laundry service",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0084",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 14847,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Water supply",
+      "Mess facility",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0085",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 11367,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Mess facility",
+      "Attached bathroom",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0086",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 20376,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "Security guard",
+      "Water supply",
+      "Furnished",
+      "WiFi",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0087",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 10922,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Shared kitchen",
+      "WiFi",
+      "Parking",
+      "Separate washroom",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0088",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 9268,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Furnished",
+      "Mess facility",
+      "Electricity backup",
+      "Security guard",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0089",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 12018,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Furnished",
+      "WiFi",
+      "Laundry service",
+      "Separate washroom",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0090",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 11575,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Mess facility",
+      "Parking",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0091",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 29243,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Parking",
+      "Attached bathroom",
+      "Security guard",
+      "WiFi",
+      "Mess facility",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0092",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 6351,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Nearby bus stop",
+      "WiFi",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0093",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 21120,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Security guard",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0094",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 9392,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Shared kitchen",
+      "Furnished",
+      "Parking",
+      "WiFi",
+      "Nearby bus stop",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0095",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 16555,
+    "rooms_available": 2,
+    "amenities": [
+      "Furnished",
+      "Parking",
+      "Attached bathroom",
+      "WiFi",
+      "Electricity backup",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0096",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 16844,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "WiFi",
+      "Parking",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0097",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 27819,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "Security guard",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0098",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 13977,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Laundry service",
+      "Water supply",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0099",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 7466,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Water supply",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0100",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 25803,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "Shared kitchen",
+      "Security guard",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0101",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 22060,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Shared kitchen",
+      "Water supply",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0102",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 20246,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Water supply",
+      "Electricity backup",
+      "Security guard",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0103",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 8912,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Laundry service",
+      "WiFi",
+      "Attached bathroom",
+      "Parking",
+      "Separate washroom",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0104",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 22225,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Attached bathroom",
+      "Laundry service",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0105",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 24793,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Attached bathroom",
+      "Mess facility",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0106",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 12421,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "Water supply",
+      "Separate washroom",
+      "Parking",
+      "Electricity backup",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0107",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 15086,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Shared kitchen",
+      "Security guard",
+      "Attached bathroom",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0108",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 26980,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "Shared kitchen",
+      "Attached bathroom",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0109",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 22836,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "Attached bathroom",
+      "Security guard",
+      "WiFi",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0110",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 9178,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "WiFi",
+      "Water supply",
+      "Laundry service",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0111",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 15287,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Nearby bus stop",
+      "Electricity backup",
+      "AC room",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0112",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 24297,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Laundry service",
+      "WiFi",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0113",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 16904,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Shared kitchen",
+      "Furnished",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0114",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 19695,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Furnished",
+      "Parking",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0115",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 20269,
+    "rooms_available": 3,
+    "amenities": [
+      "Nearby bus stop",
+      "Mess facility",
+      "Attached bathroom",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0116",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 20030,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Laundry service",
+      "Mess facility",
+      "Security guard",
+      "Electricity backup",
+      "WiFi",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0117",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 23732,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Electricity backup",
+      "Furnished",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0118",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 11275,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Shared kitchen",
+      "Parking",
+      "AC room",
+      "Laundry service",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0119",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 15777,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Separate washroom",
+      "Security guard",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Water supply",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0120",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 13727,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Laundry service",
+      "Separate washroom",
+      "Water supply",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0121",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 19916,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Furnished",
+      "Electricity backup",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0122",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 11683,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Electricity backup",
+      "AC room",
+      "Mess facility",
+      "Security guard",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0123",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 14270,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "WiFi",
+      "Water supply",
+      "Shared kitchen",
+      "Parking",
+      "Electricity backup",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0124",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 15831,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "WiFi",
+      "Furnished",
+      "AC room",
+      "Electricity backup",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0125",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 29043,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Furnished",
+      "Attached bathroom",
+      "Security guard",
+      "Laundry service",
+      "Parking",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0126",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 11847,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Water supply",
+      "Mess facility",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0127",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 14494,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "Attached bathroom",
+      "Furnished",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0128",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 18008,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Furnished",
+      "Water supply",
+      "Security guard",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0129",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 22174,
+    "rooms_available": 1,
+    "amenities": [
+      "Furnished",
+      "Parking",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0130",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 16266,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "AC room",
+      "Nearby bus stop",
+      "Water supply",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0131",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 24393,
+    "rooms_available": 2,
+    "amenities": [
+      "Security guard",
+      "Water supply",
+      "Attached bathroom",
+      "Shared kitchen",
+      "AC room",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0132",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 24045,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Separate washroom",
+      "Furnished",
+      "Mess facility",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0133",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 11090,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Parking",
+      "Security guard",
+      "Shared kitchen",
+      "AC room",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0134",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 13007,
+    "rooms_available": 3,
+    "amenities": [
+      "Water supply",
+      "Nearby bus stop",
+      "Parking",
+      "Separate washroom",
+      "WiFi",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0135",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 24831,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "Electricity backup",
+      "Furnished",
+      "Laundry service",
+      "Shared kitchen",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0136",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 19777,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Nearby bus stop",
+      "WiFi",
+      "Mess facility",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0137",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 22130,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Shared kitchen",
+      "Electricity backup",
+      "Laundry service",
+      "Security guard",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0138",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 23958,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Separate washroom",
+      "Mess facility",
+      "AC room",
+      "Security guard",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0139",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 12813,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Electricity backup",
+      "Water supply",
+      "Separate washroom",
+      "Shared kitchen",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0140",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 21190,
+    "rooms_available": 2,
+    "amenities": [
+      "Security guard",
+      "Nearby bus stop",
+      "Water supply",
+      "Furnished",
+      "AC room",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0141",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 15994,
+    "rooms_available": 1,
+    "amenities": [
+      "Furnished",
+      "Nearby bus stop",
+      "Separate washroom",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0142",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 21935,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Laundry service",
+      "WiFi",
+      "Electricity backup",
+      "Water supply",
+      "Mess facility",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0143",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 8433,
+    "rooms_available": 3,
+    "amenities": [
+      "WiFi",
+      "Attached bathroom",
+      "AC room",
+      "Laundry service",
+      "Separate washroom",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0144",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 29250,
+    "rooms_available": 3,
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "Security guard",
+      "Attached bathroom",
+      "Separate washroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0145",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 9876,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "Security guard",
+      "Separate washroom",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0146",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 9142,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Security guard",
+      "WiFi",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0147",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 10253,
+    "rooms_available": 1,
+    "amenities": [
+      "Laundry service",
+      "Electricity backup",
+      "Furnished",
+      "Attached bathroom",
+      "Shared kitchen",
+      "Water supply",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0148",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 8108,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "Water supply",
+      "Furnished",
+      "WiFi",
+      "Security guard",
+      "Electricity backup",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0149",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 22501,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Furnished",
+      "Laundry service",
+      "WiFi",
+      "Security guard",
+      "Water supply",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0150",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 14087,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Electricity backup",
+      "Mess facility",
+      "AC room",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0151",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 14592,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Shared kitchen",
+      "AC room",
+      "Attached bathroom",
+      "Parking",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0152",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 17563,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "Furnished",
+      "Nearby bus stop",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0153",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 27722,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Laundry service",
+      "Attached bathroom",
+      "Electricity backup",
+      "Security guard",
+      "Furnished",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0154",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 18367,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "WiFi",
+      "Security guard",
+      "Attached bathroom",
+      "Furnished",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0155",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 19599,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "Shared kitchen",
+      "Electricity backup",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0156",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 26750,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Water supply",
+      "WiFi",
+      "Attached bathroom",
+      "Electricity backup",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0157",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 8013,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "WiFi",
+      "Separate washroom",
+      "Shared kitchen",
+      "Attached bathroom",
+      "Mess facility",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0158",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 20052,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Furnished",
+      "Parking",
+      "Electricity backup",
+      "Mess facility",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0159",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 15419,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Security guard",
+      "Parking",
+      "Attached bathroom",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0160",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 25012,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Laundry service",
+      "Electricity backup",
+      "Parking",
+      "Security guard",
+      "Furnished",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0161",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 14689,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Electricity backup",
+      "Mess facility",
+      "Laundry service",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0162",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 15143,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "WiFi",
+      "Water supply",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0163",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 27225,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Laundry service",
+      "Security guard",
+      "Furnished",
+      "Separate washroom",
+      "Parking",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0164",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 28331,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Nearby bus stop",
+      "Parking",
+      "Security guard",
+      "Attached bathroom",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0165",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 27606,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "AC room",
+      "Nearby bus stop",
+      "Security guard",
+      "Parking",
+      "Furnished",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0166",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 28900,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Shared kitchen",
+      "Separate washroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0167",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 22493,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "Nearby bus stop",
+      "Electricity backup",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0168",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 22116,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Shared kitchen",
+      "Electricity backup",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0169",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 28170,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Electricity backup",
+      "Parking",
+      "WiFi",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0170",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 17134,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0171",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 26198,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Parking",
+      "Mess facility",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0172",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 18044,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Laundry service",
+      "Mess facility",
+      "Shared kitchen",
+      "Parking",
+      "Water supply",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0173",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 24544,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Nearby bus stop",
+      "Water supply",
+      "Parking",
+      "Separate washroom",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0174",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 26993,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Water supply",
+      "Furnished",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0175",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 11286,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Parking",
+      "Nearby bus stop",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0176",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 16887,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "WiFi",
+      "AC room",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0177",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 19622,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Furnished",
+      "Shared kitchen",
+      "Parking",
+      "Separate washroom",
+      "Attached bathroom",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0178",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 28653,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0179",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 10307,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Attached bathroom",
+      "Laundry service",
+      "Mess facility",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0180",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 25337,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Security guard",
+      "Separate washroom",
+      "Parking",
+      "AC room",
+      "Shared kitchen",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0181",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 18446,
+    "rooms_available": 1,
+    "amenities": [
+      "Laundry service",
+      "Separate washroom",
+      "Mess facility",
+      "WiFi",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0182",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 20238,
+    "rooms_available": 2,
+    "amenities": [
+      "Furnished",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Security guard",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0183",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 9686,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "WiFi",
+      "Electricity backup",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0184",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 13886,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "AC room",
+      "Parking",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "WiFi",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0185",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 7247,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Laundry service",
+      "Separate washroom",
+      "Shared kitchen",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0186",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 17320,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Mess facility",
+      "Attached bathroom",
+      "Parking",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0187",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 29125,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Separate washroom",
+      "Furnished",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0188",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 11460,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Electricity backup",
+      "Laundry service",
+      "Parking",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0189",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 16787,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "AC room",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Water supply",
+      "Laundry service",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0190",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 22487,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Parking",
+      "Attached bathroom",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0191",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 23384,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Electricity backup",
+      "Mess facility",
+      "Security guard",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0192",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 17194,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Water supply",
+      "Furnished",
+      "Shared kitchen",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0193",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 13259,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Parking",
+      "Furnished",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0194",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 21238,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Shared kitchen",
+      "Water supply",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0195",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 22869,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "Security guard",
+      "Attached bathroom",
+      "Laundry service",
+      "Nearby bus stop",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0196",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 10644,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Furnished",
+      "AC room",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0197",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 12160,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Water supply",
+      "Security guard",
+      "Shared kitchen",
+      "Electricity backup",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0198",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 11920,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "Mess facility",
+      "Shared kitchen",
+      "Parking",
+      "Furnished",
+      "AC room",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0199",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 6813,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "Furnished",
+      "Water supply",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0200",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 22586,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "AC room",
+      "Water supply",
+      "Nearby bus stop",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0201",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 14205,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "Separate washroom",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0202",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 9402,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Furnished",
+      "AC room",
+      "Mess facility",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0203",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 8390,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "AC room",
+      "Electricity backup",
+      "Security guard",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0204",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 26936,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Nearby bus stop",
+      "Parking",
+      "Separate washroom",
+      "Mess facility",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0205",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 10223,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Electricity backup",
+      "WiFi",
+      "Shared kitchen",
+      "Furnished",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0206",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 20933,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Water supply",
+      "Laundry service",
+      "AC room",
+      "Security guard",
+      "WiFi",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0207",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 10467,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "Separate washroom",
+      "Security guard",
+      "Shared kitchen",
+      "Mess facility",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0208",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 28954,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "WiFi",
+      "Security guard",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0209",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 13953,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Furnished",
+      "AC room",
+      "Shared kitchen",
+      "Separate washroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0210",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 15806,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Separate washroom",
+      "Furnished",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0211",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 21138,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Parking",
+      "WiFi",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0212",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 28469,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "Furnished",
+      "Parking",
+      "Electricity backup",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0213",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 14005,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "AC room",
+      "Nearby bus stop",
+      "Furnished",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0214",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 13829,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Mess facility",
+      "Security guard",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0215",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 20786,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "Shared kitchen",
+      "WiFi",
+      "Mess facility",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0216",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 9097,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Mess facility",
+      "Attached bathroom",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0217",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 25911,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Laundry service",
+      "Nearby bus stop",
+      "WiFi",
+      "Furnished",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0218",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 24356,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Electricity backup",
+      "Parking",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0219",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 27102,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Separate washroom",
+      "Furnished",
+      "Parking",
+      "Water supply",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0220",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 7197,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "Electricity backup",
+      "AC room",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0221",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 27505,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Nearby bus stop",
+      "Security guard",
+      "Furnished",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0222",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 9761,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Water supply",
+      "Attached bathroom",
+      "Security guard",
+      "Laundry service",
+      "Shared kitchen",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0223",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 12723,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Separate washroom",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Security guard",
+      "Attached bathroom",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0224",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 22777,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "Attached bathroom",
+      "Security guard",
+      "Water supply",
+      "AC room",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0225",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 17955,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Furnished",
+      "Separate washroom",
+      "Attached bathroom",
+      "Water supply",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0226",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 17163,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "WiFi",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0227",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 8505,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Laundry service",
+      "AC room",
+      "Attached bathroom",
+      "Electricity backup",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0228",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 8203,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Shared kitchen",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0229",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 22904,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Mess facility",
+      "Furnished",
+      "AC room",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0230",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 9381,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Laundry service",
+      "Separate washroom",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0231",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 17429,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Furnished",
+      "Nearby bus stop",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0232",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 15933,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Security guard",
+      "AC room",
+      "Laundry service",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0233",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 10982,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Attached bathroom",
+      "Parking",
+      "Mess facility",
+      "Laundry service",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0234",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 29195,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Separate washroom",
+      "Mess facility",
+      "WiFi",
+      "Shared kitchen",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0235",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 22671,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "Furnished",
+      "Mess facility",
+      "Nearby bus stop",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0236",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 16559,
+    "rooms_available": 2,
+    "amenities": [
+      "Mess facility",
+      "Separate washroom",
+      "Laundry service",
+      "Furnished",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0237",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 15354,
+    "rooms_available": 4,
+    "amenities": [
+      "Nearby bus stop",
+      "Furnished",
+      "AC room",
+      "Parking",
+      "Shared kitchen",
+      "Mess facility",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0238",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 28682,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Water supply",
+      "Nearby bus stop",
+      "Mess facility",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0239",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 15082,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Electricity backup",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0240",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 22052,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "AC room",
+      "Separate washroom",
+      "Electricity backup",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0241",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 26599,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Electricity backup",
+      "Shared kitchen",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0242",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 16895,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "AC room",
+      "Electricity backup",
+      "Security guard",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0243",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 16377,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Separate washroom",
+      "Shared kitchen",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0244",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 21295,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "WiFi",
+      "Furnished",
+      "Security guard",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0245",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 15266,
+    "rooms_available": 2,
+    "amenities": [
+      "Furnished",
+      "AC room",
+      "Electricity backup",
+      "Nearby bus stop",
+      "Water supply",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0246",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 15877,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Mess facility",
+      "Laundry service",
+      "Furnished",
+      "Water supply",
+      "Electricity backup",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0247",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 7946,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "WiFi",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0248",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 20927,
+    "rooms_available": 1,
+    "amenities": [
+      "Furnished",
+      "Mess facility",
+      "Nearby bus stop",
+      "WiFi",
+      "Attached bathroom",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0249",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 27610,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Attached bathroom",
+      "AC room",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0250",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 6564,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "AC room",
+      "Separate washroom",
+      "Security guard",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0251",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 10618,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Parking",
+      "Attached bathroom",
+      "AC room",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0252",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 15189,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Nearby bus stop",
+      "Security guard",
+      "Laundry service",
+      "Electricity backup",
+      "Parking",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0253",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 8845,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "Mess facility",
+      "Nearby bus stop",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0254",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 25607,
+    "rooms_available": 4,
+    "amenities": [
+      "Furnished",
+      "AC room",
+      "Water supply",
+      "Nearby bus stop",
+      "Electricity backup",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0255",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 15612,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Attached bathroom",
+      "Mess facility",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0256",
+    "city": "Lahore",
+    "area": "Johar Town",
+    "monthly_rent_PKR": 17839,
+    "rooms_available": 3,
+    "amenities": [
+      "WiFi",
+      "Mess facility",
+      "Furnished",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0257",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 10017,
+    "rooms_available": 2,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Laundry service",
+      "Attached bathroom",
+      "Water supply",
+      "Separate washroom",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0258",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 22045,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "WiFi",
+      "Mess facility",
+      "Furnished",
+      "Laundry service",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0259",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 21592,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Electricity backup",
+      "Shared kitchen",
+      "Mess facility",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0260",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 10387,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Electricity backup",
+      "Attached bathroom",
+      "Separate washroom",
+      "Water supply",
+      "WiFi",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0261",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 20150,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Laundry service",
+      "Nearby bus stop",
+      "AC room",
+      "Water supply",
+      "Parking",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0262",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 6109,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Shared kitchen",
+      "Mess facility",
+      "Separate washroom",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0263",
+    "city": "Rawalpindi",
+    "area": "Peshawar Road",
+    "monthly_rent_PKR": 17929,
+    "rooms_available": 2,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Water supply",
+      "Mess facility",
+      "Separate washroom",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0264",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 15592,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Electricity backup",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0265",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 22014,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Electricity backup",
+      "Mess facility",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0266",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 10621,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Security guard",
+      "Electricity backup",
+      "WiFi",
+      "Separate washroom",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0267",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 10021,
+    "rooms_available": 4,
+    "amenities": [
+      "Furnished",
+      "Electricity backup",
+      "Water supply",
+      "Nearby bus stop",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0268",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 26417,
+    "rooms_available": 3,
+    "amenities": [
+      "Nearby bus stop",
+      "Furnished",
+      "Laundry service",
+      "Attached bathroom",
+      "Mess facility",
+      "Shared kitchen",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0269",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 19344,
+    "rooms_available": 2,
+    "amenities": [
+      "Furnished",
+      "Parking",
+      "Electricity backup",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0270",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 18574,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "WiFi",
+      "Mess facility",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0271",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 13597,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Separate washroom",
+      "Attached bathroom",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0272",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 20658,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Laundry service",
+      "Shared kitchen",
+      "Water supply",
+      "Electricity backup",
+      "AC room",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0273",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 27372,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Separate washroom",
+      "Furnished",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0274",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 25111,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Laundry service",
+      "Electricity backup",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0275",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 24887,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "AC room",
+      "Parking",
+      "WiFi",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0276",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 6939,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Attached bathroom",
+      "Water supply",
+      "Furnished",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0277",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 29281,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "WiFi",
+      "Laundry service",
+      "Electricity backup",
+      "Water supply",
+      "Shared kitchen",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0278",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 21142,
+    "rooms_available": 3,
+    "amenities": [
+      "Laundry service",
+      "Separate washroom",
+      "Security guard",
+      "Mess facility",
+      "WiFi",
+      "Attached bathroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0279",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 14692,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Parking",
+      "Nearby bus stop",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0280",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 8996,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Security guard",
+      "AC room",
+      "WiFi",
+      "Shared kitchen",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0281",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 12705,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Parking",
+      "Electricity backup",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0282",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 22966,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Water supply",
+      "Security guard",
+      "Separate washroom",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0283",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 23811,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "Nearby bus stop",
+      "Water supply",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0284",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 12110,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "WiFi",
+      "Shared kitchen",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0285",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 19296,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "Water supply",
+      "Nearby bus stop",
+      "AC room",
+      "Laundry service",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0286",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 29474,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Shared kitchen",
+      "Furnished",
+      "Laundry service",
+      "Attached bathroom",
+      "Parking",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0287",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 21928,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Furnished",
+      "Parking",
+      "Separate washroom",
+      "Attached bathroom",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0288",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 16082,
+    "rooms_available": 4,
+    "amenities": [
+      "Furnished",
+      "Mess facility",
+      "WiFi",
+      "Separate washroom",
+      "Shared kitchen",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0289",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 18262,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Nearby bus stop",
+      "Water supply",
+      "WiFi",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0290",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 12792,
+    "rooms_available": 4,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Shared kitchen",
+      "WiFi",
+      "AC room",
+      "Water supply",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0291",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 19680,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Laundry service",
+      "Furnished",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0292",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 6562,
+    "rooms_available": 1,
+    "amenities": [
+      "Attached bathroom",
+      "AC room",
+      "Mess facility",
+      "WiFi",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0293",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 13042,
+    "rooms_available": 2,
+    "amenities": [
+      "Mess facility",
+      "WiFi",
+      "Laundry service",
+      "Security guard",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0294",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 20923,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Furnished",
+      "Security guard",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0295",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 22997,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Parking",
+      "Furnished",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0296",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 7582,
+    "rooms_available": 4,
+    "amenities": [
+      "AC room",
+      "Attached bathroom",
+      "Parking",
+      "Security guard",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0297",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 28510,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "WiFi",
+      "Furnished",
+      "Nearby bus stop",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0298",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 26565,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "Laundry service",
+      "Furnished",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0299",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 13429,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "AC room",
+      "Electricity backup",
+      "Furnished",
+      "Security guard",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0300",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 23578,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "AC room",
+      "Furnished",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0301",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 15480,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Shared kitchen",
+      "Electricity backup",
+      "Parking",
+      "Separate washroom",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0302",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 10187,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Shared kitchen",
+      "Furnished",
+      "Security guard",
+      "Laundry service",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0303",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 21645,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Electricity backup",
+      "AC room",
+      "Furnished",
+      "Parking"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0304",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 8111,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "Attached bathroom",
+      "Parking",
+      "Electricity backup",
+      "WiFi",
+      "Security guard",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0305",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 27048,
+    "rooms_available": 3,
+    "amenities": [
+      "Nearby bus stop",
+      "WiFi",
+      "Furnished",
+      "AC room",
+      "Mess facility",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0306",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 6261,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Attached bathroom",
+      "Mess facility",
+      "WiFi",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0307",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 14082,
+    "rooms_available": 1,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "Shared kitchen",
+      "Attached bathroom",
+      "Parking",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0308",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 8660,
+    "rooms_available": 2,
+    "amenities": [
+      "Mess facility",
+      "AC room",
+      "Water supply",
+      "WiFi",
+      "Parking",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0309",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 22716,
+    "rooms_available": 4,
+    "amenities": [
+      "Separate washroom",
+      "Security guard",
+      "Parking",
+      "WiFi",
+      "Laundry service",
+      "Attached bathroom",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0310",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 6515,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "WiFi",
+      "AC room",
+      "Mess facility",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0311",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 23582,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Water supply",
+      "Furnished",
+      "Shared kitchen",
+      "Attached bathroom",
+      "Electricity backup",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0312",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 19015,
+    "rooms_available": 2,
+    "amenities": [
+      "WiFi",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0313",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 25007,
+    "rooms_available": 1,
+    "amenities": [
+      "Nearby bus stop",
+      "Parking",
+      "Security guard",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0314",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 11319,
+    "rooms_available": 3,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Electricity backup",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0315",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 12470,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "WiFi",
+      "Parking",
+      "Security guard",
+      "Electricity backup",
+      "Shared kitchen",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0316",
+    "city": "Peshawar",
+    "area": "Hayatabad",
+    "monthly_rent_PKR": 8319,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Laundry service",
+      "Parking",
+      "Nearby bus stop",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0317",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 12471,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Laundry service",
+      "Water supply",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0318",
+    "city": "Multan",
+    "area": "Chowk Kumharanwala",
+    "monthly_rent_PKR": 16837,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Attached bathroom",
+      "Separate washroom",
+      "Mess facility"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0319",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 29295,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Shared kitchen",
+      "Attached bathroom",
+      "Separate washroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0320",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 27496,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Laundry service",
+      "Parking",
+      "Mess facility",
+      "WiFi",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0321",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 23840,
+    "rooms_available": 4,
+    "amenities": [
+      "Furnished",
+      "Water supply",
+      "AC room",
+      "Security guard",
+      "WiFi",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0322",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 15036,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "Furnished",
+      "Security guard",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0323",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 9960,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "Separate washroom",
+      "Electricity backup",
+      "AC room",
+      "Laundry service",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0324",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 7144,
+    "rooms_available": 4,
+    "amenities": [
+      "Electricity backup",
+      "Mess facility",
+      "Shared kitchen",
+      "Separate washroom",
+      "Parking",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0325",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 23842,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Parking",
+      "Furnished",
+      "Attached bathroom",
+      "Security guard",
+      "Mess facility",
+      "Separate washroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0326",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 20663,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "WiFi",
+      "Furnished",
+      "Separate washroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0327",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 27766,
+    "rooms_available": 4,
+    "amenities": [
+      "Attached bathroom",
+      "AC room",
+      "Water supply",
+      "Mess facility",
+      "Furnished",
+      "Parking",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0328",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 29037,
+    "rooms_available": 1,
+    "amenities": [
+      "Laundry service",
+      "Shared kitchen",
+      "Security guard",
+      "AC room",
+      "Electricity backup",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0329",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 29652,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Furnished",
+      "Parking",
+      "Electricity backup",
+      "Security guard",
+      "Laundry service",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0330",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 23951,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Laundry service",
+      "Furnished",
+      "Separate washroom",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0331",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 19479,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Furnished",
+      "WiFi",
+      "Parking",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0332",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 7086,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Water supply",
+      "Electricity backup",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0333",
+    "city": "Lahore",
+    "area": "Wapda Town",
+    "monthly_rent_PKR": 27124,
+    "rooms_available": 4,
+    "amenities": [
+      "Laundry service",
+      "Security guard",
+      "WiFi",
+      "Furnished",
+      "Parking",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0334",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 20745,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Attached bathroom",
+      "Electricity backup",
+      "Nearby bus stop",
+      "Laundry service",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0335",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 6125,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Electricity backup",
+      "Mess facility",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0336",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 11533,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Laundry service",
+      "Attached bathroom",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0337",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 7242,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Separate washroom",
+      "Electricity backup",
+      "AC room",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0338",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 20941,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Nearby bus stop",
+      "Water supply",
+      "Furnished",
+      "WiFi",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0339",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 13989,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Mess facility",
+      "Separate washroom",
+      "WiFi",
+      "AC room",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0340",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 13750,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Mess facility",
+      "Nearby bus stop",
+      "WiFi",
+      "Attached bathroom",
+      "Laundry service",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0341",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 18346,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Parking",
+      "Mess facility",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0342",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 12313,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Electricity backup",
+      "Laundry service",
+      "Furnished",
+      "Mess facility",
+      "Shared kitchen",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0343",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 14519,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "Water supply",
+      "Furnished",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0344",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 18008,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Furnished",
+      "AC room",
+      "Electricity backup",
+      "Laundry service",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0345",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 15686,
+    "rooms_available": 2,
+    "amenities": [
+      "Electricity backup",
+      "Mess facility",
+      "Nearby bus stop",
+      "Parking",
+      "Water supply",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0346",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 16358,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Parking",
+      "Mess facility",
+      "Electricity backup",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0347",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 13860,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0348",
+    "city": "Lahore",
+    "area": "Model Town",
+    "monthly_rent_PKR": 22767,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "Separate washroom",
+      "Security guard",
+      "Laundry service",
+      "Parking",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0349",
+    "city": "Islamabad",
+    "area": "Bahria Town",
+    "monthly_rent_PKR": 19045,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "WiFi",
+      "Laundry service",
+      "Parking",
+      "Electricity backup"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0350",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 21921,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Attached bathroom",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Furnished",
+      "Security guard",
+      "AC room"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0351",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 28150,
+    "rooms_available": 1,
+    "amenities": [
+      "Laundry service",
+      "Security guard",
+      "Parking",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0352",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 25426,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "WiFi",
+      "Water supply",
+      "AC room",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0353",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 16223,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Security guard",
+      "Separate washroom",
+      "Shared kitchen",
+      "Water supply",
+      "Electricity backup",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0354",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 14206,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Parking",
+      "Separate washroom",
+      "AC room",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0355",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 27767,
+    "rooms_available": 2,
+    "amenities": [
+      "Furnished",
+      "Electricity backup",
+      "Attached bathroom",
+      "Security guard",
+      "Separate washroom",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0356",
+    "city": "Rawalpindi",
+    "area": "Chandni Chowk",
+    "monthly_rent_PKR": 9653,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Attached bathroom",
+      "Mess facility",
+      "Water supply",
+      "Laundry service",
+      "Nearby bus stop",
+      "Parking"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0357",
+    "city": "Faisalabad",
+    "area": "Madina Town",
+    "monthly_rent_PKR": 17288,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "Nearby bus stop",
+      "Water supply",
+      "Separate washroom",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0358",
+    "city": "Islamabad",
+    "area": "Blue Area",
+    "monthly_rent_PKR": 6734,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Security guard",
+      "AC room",
+      "Water supply",
+      "Nearby bus stop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0359",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 7913,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Shared kitchen",
+      "Mess facility",
+      "Attached bathroom",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0360",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 14424,
+    "rooms_available": 2,
+    "amenities": [
+      "Water supply",
+      "Laundry service",
+      "Electricity backup",
+      "AC room",
+      "WiFi",
+      "Separate washroom",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0361",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 20844,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Furnished",
+      "Nearby bus stop",
+      "WiFi"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0362",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 25821,
+    "rooms_available": 4,
+    "amenities": [
+      "Parking",
+      "Shared kitchen",
+      "Laundry service",
+      "Electricity backup",
+      "Attached bathroom"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0363",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 16762,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "Shared kitchen",
+      "Separate washroom",
+      "Furnished",
+      "Attached bathroom",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0364",
+    "city": "Islamabad",
+    "area": "G-10",
+    "monthly_rent_PKR": 14668,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Security guard",
+      "Laundry service",
+      "Parking",
+      "Furnished",
+      "WiFi",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0365",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 17504,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Separate washroom",
+      "AC room",
+      "Electricity backup",
+      "Laundry service"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0366",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 22056,
+    "rooms_available": 3,
+    "amenities": [
+      "Water supply",
+      "Parking",
+      "WiFi",
+      "AC room",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0367",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 9134,
+    "rooms_available": 4,
+    "amenities": [
+      "Mess facility",
+      "Attached bathroom",
+      "WiFi",
+      "Shared kitchen",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0368",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 18506,
+    "rooms_available": 2,
+    "amenities": [
+      "Mess facility",
+      "Laundry service",
+      "Water supply",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0369",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 13211,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Furnished",
+      "AC room",
+      "WiFi",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0370",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 6078,
+    "rooms_available": 1,
+    "amenities": [
+      "Security guard",
+      "Parking",
+      "Water supply",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0371",
+    "city": "Karachi",
+    "area": "Nazimabad",
+    "monthly_rent_PKR": 16250,
+    "rooms_available": 2,
+    "amenities": [
+      "AC room",
+      "Parking",
+      "Shared kitchen",
+      "Water supply",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0372",
+    "city": "Rawalpindi",
+    "area": "Satellite Town",
+    "monthly_rent_PKR": 20088,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Security guard",
+      "AC room",
+      "Shared kitchen"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0373",
+    "city": "Islamabad",
+    "area": "F-8",
+    "monthly_rent_PKR": 19530,
+    "rooms_available": 2,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Parking",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0374",
+    "city": "Karachi",
+    "area": "DHA",
+    "monthly_rent_PKR": 7848,
+    "rooms_available": 1,
+    "amenities": [
+      "WiFi",
+      "Security guard",
+      "Shared kitchen",
+      "Laundry service",
+      "Mess facility",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0375",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 7231,
+    "rooms_available": 2,
+    "amenities": [
+      "Shared kitchen",
+      "Nearby bus stop",
+      "WiFi",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0376",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 11069,
+    "rooms_available": 1,
+    "amenities": [
+      "Shared kitchen",
+      "Mess facility",
+      "Parking",
+      "Furnished"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0377",
+    "city": "Karachi",
+    "area": "Korangi",
+    "monthly_rent_PKR": 23361,
+    "rooms_available": 1,
+    "amenities": [
+      "Mess facility",
+      "Attached bathroom",
+      "Separate washroom",
+      "AC room",
+      "Parking",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0378",
+    "city": "Faisalabad",
+    "area": "Peoples Colony",
+    "monthly_rent_PKR": 10990,
+    "rooms_available": 3,
+    "amenities": [
+      "AC room",
+      "Electricity backup",
+      "Laundry service",
+      "Security guard",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0379",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 29129,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "WiFi",
+      "Mess facility",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0380",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 7844,
+    "rooms_available": 3,
+    "amenities": [
+      "Security guard",
+      "Shared kitchen",
+      "WiFi",
+      "Furnished"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0381",
+    "city": "Faisalabad",
+    "area": "D Ground",
+    "monthly_rent_PKR": 22906,
+    "rooms_available": 3,
+    "amenities": [
+      "Attached bathroom",
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Separate washroom",
+      "Security guard",
+      "Water supply"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0382",
+    "city": "Peshawar",
+    "area": "University Town",
+    "monthly_rent_PKR": 16201,
+    "rooms_available": 2,
+    "amenities": [
+      "Mess facility",
+      "Parking",
+      "Security guard",
+      "Laundry service",
+      "Separate washroom",
+      "AC room",
+      "Water supply"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0383",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 7517,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Laundry service",
+      "Shared kitchen",
+      "Parking",
+      "Security guard",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0384",
+    "city": "Lahore",
+    "area": "Gulberg",
+    "monthly_rent_PKR": 14661,
+    "rooms_available": 3,
+    "amenities": [
+      "Shared kitchen",
+      "AC room",
+      "Parking",
+      "Attached bathroom",
+      "Security guard",
+      "Furnished",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0385",
+    "city": "Peshawar",
+    "area": "Saddar",
+    "monthly_rent_PKR": 29839,
+    "rooms_available": 3,
+    "amenities": [
+      "Separate washroom",
+      "Attached bathroom",
+      "AC room",
+      "WiFi"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0386",
+    "city": "Islamabad",
+    "area": "G-11",
+    "monthly_rent_PKR": 26685,
+    "rooms_available": 2,
+    "amenities": [
+      "Nearby bus stop",
+      "AC room",
+      "Parking",
+      "Mess facility",
+      "Electricity backup"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0387",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 16179,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Nearby bus stop",
+      "Electricity backup",
+      "Parking",
+      "Security guard"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0388",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 10027,
+    "rooms_available": 4,
+    "amenities": [
+      "WiFi",
+      "Water supply",
+      "Separate washroom",
+      "Nearby bus stop"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0389",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 21421,
+    "rooms_available": 1,
+    "amenities": [
+      "Separate washroom",
+      "AC room",
+      "Security guard",
+      "WiFi",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0390",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 18570,
+    "rooms_available": 4,
+    "amenities": [
+      "Furnished",
+      "AC room",
+      "Shared kitchen",
+      "Parking",
+      "Electricity backup",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0391",
+    "city": "Karachi",
+    "area": "Clifton",
+    "monthly_rent_PKR": 11377,
+    "rooms_available": 4,
+    "amenities": [
+      "Water supply",
+      "Parking",
+      "Attached bathroom",
+      "Security guard"
+    ],
+    "availability": "Not Available"
+  },
+  {
+    "listing_id": "H-0392",
+    "city": "Lahore",
+    "area": "DHA",
+    "monthly_rent_PKR": 7067,
+    "rooms_available": 2,
+    "amenities": [
+      "Laundry service",
+      "Parking",
+      "Furnished",
+      "Nearby bus stop",
+      "WiFi",
+      "Security guard",
+      "AC room"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0393",
+    "city": "Peshawar",
+    "area": "Kohat Road",
+    "monthly_rent_PKR": 13180,
+    "rooms_available": 1,
+    "amenities": [
+      "AC room",
+      "Separate washroom",
+      "Laundry service",
+      "WiFi",
+      "Parking",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0394",
+    "city": "Rawalpindi",
+    "area": "Saddar",
+    "monthly_rent_PKR": 14121,
+    "rooms_available": 2,
+    "amenities": [
+      "Security guard",
+      "Electricity backup",
+      "Separate washroom",
+      "Water supply",
+      "Attached bathroom",
+      "Mess facility"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0395",
+    "city": "Karachi",
+    "area": "Gulshan-e-Iqbal",
+    "monthly_rent_PKR": 20648,
+    "rooms_available": 3,
+    "amenities": [
+      "Electricity backup",
+      "AC room",
+      "Furnished",
+      "Shared kitchen"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0396",
+    "city": "Islamabad",
+    "area": "H-9",
+    "monthly_rent_PKR": 15139,
+    "rooms_available": 4,
+    "amenities": [
+      "Shared kitchen",
+      "Mess facility",
+      "Furnished",
+      "Water supply",
+      "Electricity backup",
+      "Attached bathroom"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0397",
+    "city": "Multan",
+    "area": "Gulgasht Colony",
+    "monthly_rent_PKR": 12038,
+    "rooms_available": 1,
+    "amenities": [
+      "Parking",
+      "Security guard",
+      "Nearby bus stop",
+      "Separate washroom",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0398",
+    "city": "Multan",
+    "area": "Shah Rukn-e-Alam",
+    "monthly_rent_PKR": 27610,
+    "rooms_available": 1,
+    "amenities": [
+      "Water supply",
+      "Separate washroom",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0399",
+    "city": "Faisalabad",
+    "area": "Jaranwala Road",
+    "monthly_rent_PKR": 15708,
+    "rooms_available": 2,
+    "amenities": [
+      "Attached bathroom",
+      "Separate washroom",
+      "Mess facility",
+      "Nearby bus stop",
+      "Shared kitchen",
+      "Laundry service"
+    ],
+    "availability": "Available"
+  },
+  {
+    "listing_id": "H-0400",
+    "city": "Multan",
+    "area": "Cantt",
+    "monthly_rent_PKR": 18503,
+    "rooms_available": 3,
+    "amenities": [
+      "Mess facility",
+      "Attached bathroom",
+      "Shared kitchen",
+      "WiFi",
+      "AC room",
+      "Laundry service",
+      "Parking"
+    ],
+    "availability": "Available"
+  }
+]
