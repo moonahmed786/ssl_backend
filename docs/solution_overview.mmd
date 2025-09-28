@@ -1,0 +1,43 @@
+flowchart TB
+  %% Solution Overview Diagram (keep labels quoted to avoid parser issues)
+  subgraph Client
+    U["User / Frontend"]
+  end
+
+  subgraph API["FastAPI Endpoints"]
+    EP_PARSE["POST /parse"]
+    EP_MATCHES["GET /profiles/{id}/matches"]
+    EP_ROOMS["GET /profiles/{id}/rooms"]
+    EP_SEARCH["POST /rooms/search"]
+  end
+
+  subgraph Agents["Agentic Pipeline"]
+    PR["Profile Reader"]
+    MS["Match Scorer"]
+    RF["Red Flag"]
+    WX["Wingman (Explain)"]
+    RH["Room Hunter"]
+  end
+
+  subgraph Outputs
+    OUT_MATCHES["Top Matches + Flags + Explainability"]
+    OUT_ROOMS["Recommended Rooms"]
+  end
+
+  %% Client to API
+  U --> EP_PARSE
+  U --> EP_MATCHES
+  U --> EP_ROOMS
+  U --> EP_SEARCH
+
+  %% Matching pipeline
+  EP_MATCHES --> PR --> MS --> RF --> WX --> RH
+  WX --> OUT_MATCHES
+
+  %% Room suggestions
+  EP_ROOMS --> RH --> OUT_ROOMS
+
+  %% Search flow (free text or filters)
+  EP_SEARCH --> PR
+  PR --> RH
+  RH --> OUT_ROOMS

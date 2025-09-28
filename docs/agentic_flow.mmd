@@ -1,0 +1,33 @@
+flowchart LR
+  %% Agentic loop: Sense -> Plan -> Act -> Observe
+  SENSE["Sense\n(Parse profile text / inputs)"] --> PLAN["Plan\n(Select features, weights, and candidate pool)"]
+  PLAN --> ACT["Act\n(Score, flag issues, suggest improvements)"]
+  ACT --> OBS["Observe\n(Collect feedback via endpoints)"]
+  OBS -- refine --> PLAN
+
+  %% Agents roles inline
+  subgraph Agents
+    PR["Profile Reader"]
+    MS["Match Scorer"]
+    RF["Red Flag"]
+    WX["Wingman (Explain)"]
+    RH["Room Hunter"]
+  end
+
+  %% Mapping to loop stages
+  SENSE --> PR
+  PLAN --> MS
+  PLAN --> RH
+  ACT --> RF
+  ACT --> WX
+
+  %% Endpoints feedback
+  subgraph API["FastAPI Endpoints"]
+    E1["/profiles/{id}/matches"]
+    E2["/profiles/{id}/rooms"]
+    E3["/rooms/search"]
+  end
+
+  WX --> E1
+  RH --> E2
+  PR --> E3
